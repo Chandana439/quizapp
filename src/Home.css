@@ -1,0 +1,81 @@
+.container {
+  display: flex;
+  align-items: center;
+}
+
+.home-left {
+  font-size: 90px;
+  font-weight: 500;
+}
+
+.home-left .wave-text {
+  margin: 0px;
+  margin-top: 10px;
+  font-size: 90px;
+  display: inline-block;
+  animation: wave 2s ease-in-out infinite;
+}
+
+.wave-text span:nth-child(1) {
+  animation-delay: 0s;
+}
+
+.wave-text span:nth-child(2) {
+  animation-delay: 0.2s;
+}
+.wave-text span:nth-child(3) {
+  animation-delay: 0.4s;
+}
+.wave-text span:nth-child(4) {
+  animation-delay: 0.6s;
+}
+.wave-text span:nth-child(5) {
+  animation-delay: 0.8s;
+}
+.wave-text span:nth-child(6) {
+  animation-delay: 1s;
+}
+.wave-text span:nth-child(7) {
+  animation-delay: 1.2s;
+}
+
+@keyframes wave {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+}
+
+.home-left p {
+  margin-top: 30px;
+  margin-left: 15px;
+  font-size: 18px;
+  opacity: 0.5;
+}
+
+.home-right {
+  margin-left: 170px;
+  display: flex;
+  flex-direction: column;
+  gap: 21px;
+}
+
+.home-right button {
+  background-color: cornflowerblue;
+  border: none;
+  border-radius: 12px;
+  padding: 14px 10px;
+  width: 500px;
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  transition: all 0.5s ease;
+}
+
+.home-right button:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}

@@ -1,0 +1,9 @@
+.retake-button {
+  padding: 18px 13px;
+  width: 200px;
+  font-size: 28px;
+  border: none;
+  color: white;
+  border-radius: 15px;
+  background-color: rgb(180, 97, 140);
+}

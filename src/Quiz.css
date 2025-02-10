@@ -1,0 +1,147 @@
+/* i: initial h: hover */
+:root {
+  --i-html: cornflowerblue;
+  --i-css: rgb(220, 113, 189);
+  --i-js: rgb(130, 172, 104);
+  --i-java: rgb(207, 201, 90);
+  --h-html: rgb(161, 189, 243);
+  --h-css: rgb(231, 134, 203);
+  --h-js: rgb(162, 209, 133);
+  --h-java: rgb(222, 216, 104);
+}
+.quiz-heading {
+  display: flex;
+  margin-left: 30px;
+}
+.quiz-heading h2 {
+  font-size: 40px;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.heading-html {
+  color: var(--i-html);
+}
+.heading-css {
+  color: var(--i-css);
+}
+.heading-javascript {
+  color: var(--i-js);
+}
+.heading-java {
+  color: var(--i-java);
+}
+
+.quiz-heading p {
+  font-size: 22px;
+  font-weight: 400;
+  margin-top: 30px;
+}
+.ques-container {
+  display: flex;
+  gap: 25px;
+  margin-left: 20px;
+}
+
+.ques-container p {
+  max-width: 600px;
+  max-height: 400px;
+  margin-top: 20px;
+  font-size: 50px;
+}
+.option-content {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.options {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  gap: 15px;
+}
+
+.option-button {
+  padding: 15px 10px;
+  font-size: 20px;
+  border-radius: 15px;
+  cursor: pointer;
+  border-width: 0.8px;
+}
+
+.option-actions button {
+  padding: 15px 10px;
+  cursor: pointer;
+  border-radius: 15px;
+  font-size: 24px;
+  width: 500px;
+}
+
+.option-actions .error-message {
+  color: red;
+  font-size: 24px;
+  font-style: italic;
+  margin-top: 20px;
+}
+
+.selected-html {
+  background-color: var(--h-html);
+  font-size: 20px;
+}
+
+.selected-css {
+  background-color: var(--h-css);
+  font-size: 20px;
+}
+
+.selected-javascript {
+  background-color: var(--h-js);
+  font-size: 20px;
+}
+
+.selected-java {
+  background-color: var(--h-java);
+  font-size: 20px;
+}
+
+.submit {
+  padding: 15px 10px;
+  cursor: pointer;
+  border-radius: 15px;
+  font-size: 30px;
+  font-weight: 700;
+  color: white;
+}
+
+.submit-html {
+  background-color: var(--i-html);
+}
+.submit-css {
+  background-color: var(--i-css);
+}
+.submit-javascript {
+  background-color: var(--i-js);
+}
+.submit-java {
+  background-color: var(--i-java);
+}
+
+.submit-html:hover {
+  background-color: var(--h-html);
+  color: black;
+}
+.submit-css:hover {
+  background-color: var(--h-css);
+  color: black;
+}
+.submit-javascript:hover {
+  background-color: var(--h-js);
+  color: black;
+}
+
+.submit-java:hover {
+  background-color: var(--h-java);
+  color: black;
+}
