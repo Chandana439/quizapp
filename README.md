@@ -52,7 +52,7 @@ To deploy:
 4. Deploy
 
 ## Live Demo
-👉 [Quiz App](smp-quiz-applctn-react.netlify.app)
+👉 [Quiz App](https://smp-quiz-applctn-react.netlify.app)
 
 ## Learn More
 
